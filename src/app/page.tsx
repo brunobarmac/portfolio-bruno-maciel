@@ -73,9 +73,9 @@ export default function Home() {
               Um assistente educacional inteligente focado em tutoria. Desenvolvido para transformar a rotina de estudos usando inteligência artificial de forma interativa.
             </p>
             <div className="flex flex-wrap gap-2 mb-6">
-              <span className="text-sm bg-blue-50 text-blue-700 px-3 py-1 rounded-md font-medium">React Native</span>
-              <span className="text-sm bg-purple-50 text-purple-700 px-3 py-1 rounded-md font-medium">Gemini API</span>
-              <span className="text-sm bg-slate-100 text-slate-700 px-3 py-1 rounded-md font-medium">Expo</span>
+              <span className="text-sm bg-blue-50 text-purple-700 px-3 py-1 rounded-md font-medium">Gemini API</span>
+              <span className="text-sm bg-purple-50 text-red-700 px-3 py-1 rounded-md font-medium">Firebase</span>
+              <span className="text-sm bg-slate-100 text-yellow-700 px-3 py-1 rounded-md font-medium">JavaScript</span>
             </div>
             <a href="https://github.com/brunobarmac/TCC_de_Bruno_e_Gemini_e_seus_amigos_e_o_rosinha" className="inline-flex items-center text-blue-600 font-semibold hover:text-blue-800 transition">
               Acessar Repositório &rarr;
@@ -84,15 +84,15 @@ export default function Home() {
 
           {/* CARTÃO DE PROJETO 2 */}
           <div className="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 hover:shadow-xl hover:-translate-y-1 transition duration-300 group">
-            <h4 className="text-2xl font-bold mb-3 group-hover:text-blue-600 transition">App de Soluções</h4>
+            <h4 className="text-2xl font-bold mb-3 group-hover:text-blue-600 transition">Trabalho sobre mim</h4>
             <p className="text-slate-600 mb-6">
-              Uma aplicação moderna desenvolvida com foco em performance e tipagem forte, resolvendo problemas reais do dia a dia com código limpo e escalável.
+              Um projeto pessoal sobre mim, que foi desenvolvido com Expo e TypeScript. O objetivo é apresentar minhas preferências de forma clara.
             </p>
             <div className="flex flex-wrap gap-2 mb-6">
-              <span className="text-sm bg-slate-100 text-slate-700 px-3 py-1 rounded-md font-medium">TypeScript</span>
-              <span className="text-sm bg-slate-100 text-slate-700 px-3 py-1 rounded-md font-medium">Next.js</span>
+              <span className="text-sm bg-slate-100 text-blue-700 px-3 py-1 rounded-md font-medium">TypeScript</span>
+              <span className="text-sm bg-slate-100 text-black-700 px-3 py-1 rounded-md font-medium">Expo</span>
             </div>
-            <a href="https://github.com/brunobarmac/bruno-maciel-pamII ProjetoBruno" className="inline-flex items-center text-blue-600 font-semibold hover:text-blue-800 transition">
+            <a href="https://github.com/brunobarmac/ProjetoSobreMim" className="inline-flex items-center text-blue-600 font-semibold hover:text-blue-800 transition">
               Acessar Repositório &rarr;
             </a>
           </div>
@@ -104,9 +104,9 @@ export default function Home() {
               Trabalho relacionado a um projeto de TCC de finanças com um olhar econômico, onde o objetivo é abordar a ineficiência da Zona Franca de Manaus e a necessidade de uma reforma tributária para o desenvolvimento do país, utilizando dados econômicos e financeiros para embasar a análise. 
             </p>
             <div className="flex flex-wrap gap-2 mb-6">
-              <span className="text-sm bg-green-50 text-green-700 px-3 py-1 rounded-md font-medium">Economia</span>
+              <span className="text-sm bg-green-50 text-red-700 px-3 py-1 rounded-md font-medium">Economia</span>
               <span className="text-sm bg-green-50 text-green-700 px-3 py-1 rounded-md font-medium">Finanças</span>
-              <span className="text-sm bg-slate-100 text-slate-700 px-3 py-1 rounded-md font-medium">Pesquisa Acadêmica</span>
+              <span className="text-sm bg-slate-100 text-black    -700 px-3 py-1 rounded-md font-medium">Pesquisa Acadêmica</span>
             </div>
             <a href="https://docs.google.com/document/d/1NTJfVI6JavcoCspc2Ky2A2HTYo2QV1Tj/export?format=pdf" target="_blank" rel="noreferrer" className="inline-flex items-center text-blue-600 font-semibold hover:text-blue-800 transition">
               Acessar documento &rarr;
